@@ -1,4 +1,5 @@
 Future Dynamics Company Website
+
 This project contains the frontend part of the Future Dynamics company website. It includes navbar and footer components.
 
 Table of Contents
