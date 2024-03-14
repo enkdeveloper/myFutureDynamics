@@ -33,6 +33,7 @@ Create a pull request.
 
 
 ScreenShots
+
 ![Ekran görüntüsü 2024-03-14 143310](https://github.com/enkdeveloper/myFutureDynamics/assets/119349974/f1a695b4-c95d-4caa-8e03-1042c0221804
 ![Ekran görüntüsü 2024-03-14 143322](https://github.com/enkdeveloper/myFutureDynamics/assets/119349974/ab52d84a-5db8-4800-93aa-83177fd1c3af)
 ![Ekran görüntüsü 2024-03-14 143331](https://github.com/enkdeveloper/myFutureDynamics/assets/119349974/bf24d092-69bd-4637-8143-e399fa412470)
