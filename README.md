@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+Future Dynamics Company Website
+This project contains the frontend part of the Future Dynamics company website. It includes navbar and footer components.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Installation
+Usage
+Contribution
+License
 
-## Available Scripts
 
-In the project directory, you can run:
+Installation
+Clone the project to your computer or download it as a ZIP file.
+Navigate to the project directory.
+Open your terminal or command prompt.
+Run npm install command to install the necessary dependencies.
+Start the project with npm start command.
+Visit http://localhost:3000 in your browser to view the application.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Usage
+The navbar component facilitates navigation at the top of the website. It opens on mobile devices by clicking on the menu icon.
+The footer component includes contact information and social media links at the bottom of the website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Contribution
+Your contributions are welcome! To contribute to the project:
+Fork the repository.
+Add new features or fix bugs.
+Make your changes in a branch: git checkout -b new-feature
+Commit your changes: git commit -am 'Added a new feature'
+Push your branch to the main repository: git push origin new-feature
+Create a pull request.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+ScreenShots
+![Ekran görüntüsü 2024-03-14 143310](https://github.com/enkdeveloper/myFutureDynamics/assets/119349974/f1a695b4-c95d-4caa-8e03-1042c0221804
+![Ekran görüntüsü 2024-03-14 143322](https://github.com/enkdeveloper/myFutureDynamics/assets/119349974/ab52d84a-5db8-4800-93aa-83177fd1c3af)
+![Ekran görüntüsü 2024-03-14 143331](https://github.com/enkdeveloper/myFutureDynamics/assets/119349974/bf24d092-69bd-4637-8143-e399fa412470)
+![Ekran görüntüsü 2024-03-14 143344](https://github.com/enkdeveloper/myFutureDynamics/assets/119349974/d417844c-967c-4160-a5c1-2b73192b912a)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is licensed under the MIT License. See the LICENSE file for more information.
