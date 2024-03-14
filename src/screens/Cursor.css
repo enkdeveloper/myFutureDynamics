@@ -1,0 +1,38 @@
+.cursor {
+    position: absolute;
+    z-index: 1000;
+    pointer-events: none;
+    user-select: none;
+  }
+  
+  .circle {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #fa4529;
+    border-radius: 50%;
+    position: relative;
+    animation: pulse 1.5s infinite;
+  }
+  
+  .dot {
+    width: 6px;
+    height: 6px;
+    background-color: #fa4529;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

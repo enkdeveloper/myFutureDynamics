@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cerebri+Sans:wght@300;400;700&display=swap');
+
+nav {
+  background-color: #ffffff;
+  padding: 10px;
+  height: 110px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #1c1c1c;
+}
+
+.logo img {
+  height: 80px;
+  padding-left: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-right: 30px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Cerebri Sans', sans-serif;
+}
+
+nav ul li {
+  margin-right: 20px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 7px;
+}
+
+nav ul li:hover {
+  color: #fa4529;
+  font-size: 22px;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
+.desktop-menu {
+  display: flex;
+}
+
+.mobile-info {
+  display: none;
+}
+
+.additional-info {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .menu {
+    display: inline-block;
+    font-size: 28px;
+    margin-right: 20px;
+  }
+
+  .menu .fa-bars {
+    color: #000;
+  }
+
+  .additional-content {
+    color: #1c1c1c;
+  }
+
+  .mobile-info {
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    right: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 0;
+    justify-content: start;
+    text-align:  left;
+    overflow: auto; 
+    max-height: calc(100vh - 130px); 
+  }
+  
+
+  .mobile-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    align-items: start;
+  }
+
+  .mobile-info ul li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: block;
+    align-items: start; 
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .social-icons i {
+    font-size: 28px;
+    margin: 0 10px;
+    color: #000;
+    transition: all 0.3s ease;
+  }
+
+  .social-icons i:hover {
+    color: #fa4529;
+    font-size: 110%;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+}
